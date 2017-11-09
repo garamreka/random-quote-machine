@@ -1,0 +1,89 @@
+﻿@media only screen and (max-width: 650px) {
+    body {
+        background-color: #ddddbb;
+    }
+
+    #lotr-image {
+        width: 70%;
+    }
+
+    .quote-box {
+        border: 2px solid black;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+        padding: 5%;
+        text-align: center;
+    }
+
+    .quote, .fa-quote-left, .fa-quote-right {
+        font-size: 30px;
+    }
+
+    .btn {
+        background-color: #cccc99;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 651px) {
+    body {
+        background-image: url("http://www.theimaginativeconservative.org/wp-content/uploads/2016/04/Lord-of-the-Rings-.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    h1 {
+        color: white;
+    }
+
+    #lotr-image {
+        width: 15%;
+    }
+
+    .quote, .fa-quote-left, .fa-quote-right {
+        color: white;
+        font-size: 50px;
+    }
+
+    .quote-box {
+        border: 2px solid transparent;
+        margin-top: 5%;
+        margin-left: 40%;
+        margin-right: 15%;
+    }
+
+    .btn {
+        background-color: #ddddbb;
+        border: solid black 1px;
+    }
+}
+
+h1 {
+    font-family: 'Bilbo Swash Caps', cursive;
+    text-align: center;
+}
+
+#lotr-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quote-box {
+    font-family: 'Bilbo Swash Caps', cursive;
+}
+
+.btn {
+    font-family: 'Bilbo Swash Caps', cursive;
+    margin: 5%;
+    font-size: 30px;
+}
+
+.fa-twitter {
+    color: black;
+}
+
+button:active {
+    transform: translateY(4px);
+}
