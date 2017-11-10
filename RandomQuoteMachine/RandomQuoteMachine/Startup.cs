@@ -24,7 +24,7 @@ namespace RandomQuoteMachine
             Configuration = builder.Build();
 
             services.AddMvc();
-            services.AddDbContext<QuoteContext>(options => options.UseSqlServer(Configuration["ConnectionStrings:QuoteConnection"]));
+            services.AddDbContext<QuoteContext>(options => options.UseNpgsql(Configuration["ConnectionStrings:QuoteConnection"]));
             services.AddScoped<QuoteRepository>();
         }
 

@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RandomQuoteMachine", "Rando
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RandomQuote.IntegrationTest", "RandomQuote.IntegrationTest\RandomQuote.IntegrationTest.csproj", "{8A13500C-627E-47EF-966B-FE9904953271}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomQuote.UnitTest", "RandomQuote.UnitTest\RandomQuote.UnitTest.csproj", "{FCC49A06-C04C-4FFB-BD38-EF845129376E}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{8A13500C-627E-47EF-966B-FE9904953271}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A13500C-627E-47EF-966B-FE9904953271}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A13500C-627E-47EF-966B-FE9904953271}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FCC49A06-C04C-4FFB-BD38-EF845129376E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FCC49A06-C04C-4FFB-BD38-EF845129376E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FCC49A06-C04C-4FFB-BD38-EF845129376E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FCC49A06-C04C-4FFB-BD38-EF845129376E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,6 +1,6 @@
 ﻿$(document).ready(function () {
 
-    window.baseUrl = "http://localhost:4112/";
+    window.baseUrl = "https://randomquotegenerator.herokuapp.com";
     var randomQuote;
 
     $("#new-quote").on("click", function () {

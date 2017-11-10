@@ -8,9 +8,10 @@ using RandomQuoteMachine.Entities;
 namespace RandomQuoteMachine.Migrations
 {
     [DbContext(typeof(QuoteContext))]
-    partial class QuoteContextModelSnapshot : ModelSnapshot
+    [Migration("20171110120804_InitialCreat")]
+    partial class InitialCreat
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
             modelBuilder
                 .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.SerialColumn)
