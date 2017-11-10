@@ -18,10 +18,6 @@ namespace RandomQuoteMachine.Controllers
             QuoteRepository = quoteRepository;
         }
 
-        public HomeController()
-        {
-        }
-
         [HttpGet]
         [Route ("")]
         public IActionResult Index()
