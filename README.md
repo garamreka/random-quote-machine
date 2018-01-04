@@ -1,1 +1,2 @@
-# random-quote-machine
+<h1>Random Quote Machine</h1>
+<p>This project is a recreation of Free Code Camp's Intermediate Front End Development Project called Build a Random Quote Machine (<a href = "https://github.com/garamreka/fcc-random-quote-machine">original version</a>). The goal of the exercise is to show a new randomly selected quote after pressing a button and to tweet out the quote with pressing another button. In this version I built a back-end (with integration tests) for handling the selection of the new quote and a front-end for showing and tweeting the results. For now, the quotes are in my local database. I used <b>C#, ASP.NET, EF Core</b> for the back-end, and <b>HTML, CSS, Bootstrap, JavaScript and JQuery</b> for the front-end.</p>
